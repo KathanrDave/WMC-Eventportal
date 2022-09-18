@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color:rgb(5, 228, 9);
+}
+html{
+  font-size: 62.5%;
+}
+.navbar{
+  padding-top: 15px;
+}
+
+.sports,.dm, .other   {
+  padding-left: 5px;
+  
+  padding-top: 5%;
+  overflow: auto;
+  white-space:nowrap;
+}
+.header{
+  
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+h1{
+  padding-left: 12px;
+}
+
+.sport_eve{
+  
+  padding: 20px;
+  display: inline-block;
+  background-color: black;
+  width: 225px;
+ 
+}
+
+.reg{
+  margin-left: 50px;
+}
+.reg:hover{
+  cursor: pointer;
+}
+
+.info{
+  padding-left: 50px;
+  color: whitesmoke;
+}
+
+
+
+
+
+
+
+  

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,600&display=swap');
+::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.heading-form{
+    color: black;
+    font-size: larger;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(255, 145, 11);
+    
+}
+
+.submit{
+    font-weight: bolder;
+    margin-left: 25px;
+    background-color: rgb(143, 173, 210);
+    color: rgb(13, 0, 0);
+}
+
+
+
+.addform{
+        width: fit-content;
+        margin: center;
+        color: rgb(245, 12, 12);
+      }
+    
+      .addform label{
+        font-weight: 600;
+        color: rgb(246, 246, 253);
+}
+
+.addform{
+    /* padding-left: 10%; */
+    font-size: x-large;
+    align-items: center;
+    background-color:rgba(84, 16, 212, 0.763);
+
+    background-size: cover;
+    padding: 1%;
+    height: fit-content;
+    width: 20%;
+    margin: 5% 13%;
+    color: rgb(163, 18, 18);
+  }
+
+  .addform input,label{
+    
+    font-size:medium;
+    margin-left: 10%;
+  }
+.addform textarea{
+  margin-left: 10%;
+  /* padding-left: 1%; */
+  color: rgb(98, 5, 5);
+}

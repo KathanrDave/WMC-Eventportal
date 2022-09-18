@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="logincss.css" />
+    <title>Signup Page</title>
+  </head>
+  <body>
+    <h2>Signup Page</h2>
+    <br />
+    <div class="signup-page">
+      <form id="signup-page" method="post" action="/signup">
+        <label><b>User Name </b> </label>
+        <input type="text" id="username" name="username"      placeholder="username" required/>
+        <br /><br />
+        <label><b>password </b> </label>
+        <input type="password" id="password" name="password"  placeholder="password" required/>
+        <br /><br />
+        <input type="submit" id="signup-button" value="signup" />
+      </form>
+
+      <!-- <a href="/login" >login</a> -->
+    </div>
+  </body>
+  <!-- <script>
+    const form = document.getElementById("signup-page");
+    form.addEventListener("submit", registerUser);
+    async function registerUser(event) {
+      event.preventDefault();
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      const result = await fetch("/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username,
+          password,
+        }),
+      }).then((res) => res.json());
+      if (result.status === "ok") {
+        // everythign went fine
+        alert("Success");
+      } else {
+        alert(result.error);
+      }
+    }
+  </script> -->
+</html>

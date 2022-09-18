@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan   ;
+  font-family: "Poppins", sans-serif;
+}
+.login-page {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: lightcoral;
+  opacity: 1;
+  border-radius: 15px;
+}
+.signup-page {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: lightcoral;
+  border-radius: 15px;
+}
+h2 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+label {
+  color: blue;
+  font-size: 17px;
+}
+#Username {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Password {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#login-button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 8px;
+  color: rgb(16, 16, 16);
+  font-weight: 900;
+}
+#signup-button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 8px;
+  color: rgb(16, 16, 16);
+  font-weight: 900;
+}
+
+span {
+  color: white;
+  font-size: 17px;
+}
+a {
+  float: right;
+  background-color: grey;
+}
+.adminlogin-button{
+  margin: 100px;
+}

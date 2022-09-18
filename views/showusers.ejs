@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> users</title>
+    <style>
+      table, th, td {
+        border:1px solid black;
+      }
+      </style>
+  </head>
+  <body>
+    <div id="results">
+      <table style="width:100%">
+    
+      
+<tr>      
+<th>Event Name</th>
+<th>Event Location</th>
+<!-- <th>Event Date</th>
+<th>Event Price</th> -->
+</tr> 
+<% users.forEach(user=>{ %>
+          <tr><div id="item">
+            <th> <%= user.username %></th>
+            <th><%= user.password %></th>
+           
+            <!-- <th> <button><a href="/editevent/<%= user.id %>">Edit Event</a></button></th> -->
+           <th> <form action="/deleteuser/<%= user.id %>?_method=DELETE" class="d-inline">
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form></th>
+            <!-- <th> <button><a href="/deleteevent/<%= user.id %>">Edit Event</a></button></th> -->
+  
+          </div></tr>
+          
+        
+      </a>
+      <% }) %></table>
+    </div>
+  </body>
+</html>

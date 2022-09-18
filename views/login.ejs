@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+    <meta name="google-signin-scope" content="profile email" />
+    <link rel="stylesheet" href="logincss.css" />
+  </head>
+  <body>
+    <h2>Login Page</h2>
+    <br />
+    <div class="login-page">
+      <form action="/login" id="login-page" method="post">
+        <label><b>User Name </b> </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          required
+        />
+        <br /><br />
+        <label><b>password </b> </label>
+        <input
+          type="Password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+        <br /><br />
+        <input type="submit" id="login-button" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
